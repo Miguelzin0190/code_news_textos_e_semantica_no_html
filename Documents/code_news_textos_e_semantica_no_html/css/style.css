@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gainsboro;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    padding: 30px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+#intro {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    background-color: silver;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#intro img {
+    width: 300px;
+    height: 50px;
+    background-color: silver;
+}
+
+#enun {
+    margin-top: 20px;
+}
+
+#cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cards {
+    border-radius: 15px;
+    background-color: #fff;
+    width: 20%;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid #000;
+}
+
+.cards img {
+    width: 70%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.cards h3 {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.cards p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+footer {
+    padding: 30px;
+}
+
+#rodape p {
+    margin-top: 25px;
+}
